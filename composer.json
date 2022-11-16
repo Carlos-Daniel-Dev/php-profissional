@@ -1,0 +1,20 @@
+{
+    "name": "users/3_php_profissional",
+    "description": "php-profissional",
+    "authors": [
+        {
+            "name": "Carlos-Daniel-Dev",
+            "email": "carlos.daniel.brathon2@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload":{
+        "files": [
+            "app/helpers/constants.php",
+            "app/router/router.php"
+        ],
+        "psr-4": {
+            "app\\":"app"
+        }
+    }
+}
